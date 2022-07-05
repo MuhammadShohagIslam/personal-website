@@ -25,6 +25,9 @@ body {
 .pt-50 {
     padding-top: 50px;
 }
+.pb-50 {
+    padding-bottom: 50px;
+}
 .ml-0 {
     margin-left: 0% !important;
 }
@@ -200,8 +203,6 @@ body {
 /*  End  Donate Today */
 
 /*  Start Donate Plan */
-.donate-plan-area {
-}
 .donate-plan-cards {
     align-items: center;
     justify-content: center;
@@ -211,8 +212,6 @@ body {
 .donate-plan-cards .single-donate-plan {
     margin-left: 2%;
     padding: 54px 23px;
-}
-.donate-plan-cards .single-donate-plan:hover {
 }
 .donate-plan-cards .single-donate-plan img {
     width: 57px;
@@ -283,6 +282,7 @@ body {
     justify-content: center;
     align-items: baseline;
     padding-right: 4%;
+    margin-left: -1.5%;
 }
 .survive-situation-content h2 {
     font-weight: 700;
@@ -300,19 +300,74 @@ body {
 /* End Survive-Situation */
 
 /* Start Subscribtion */
-.subcriber-form{
+.subcriber-form {
     width: 54%;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    background-color: #fff4d6;
+    height: 200px;
 }
-.subcriber-form{
-
+.subcriber-form input {
+    width: 275px;
+    height: 48px;
+    border: none;
+    background: #d9d9d9;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #aa9f9f;
 }
-.subcriber-form{
-
+.subcriber-form input::placeholder {
+    font-weight: 500;
+    font-size: 16px;
+    color: #aa9f9f;
+    line-height: 20px;
+    padding-left: 4px;
+    padding-top: 2px;
 }
-.subcriber-form{
-
+.subcriber-form button {
+    width: 157px;
+    height: 48px;
+    border: none;
+    background: #ff5959;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    position: relative;
+    left: -4px;
+    cursor: pointer;
 }
 /* End Subscribtion */
+
+/* Start Footer */
+.footer-area {
+    margin-top: 130px;
+    background: #0b0d17;
+    height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 48px 0px;
+}
+.footer-area h2 {
+    font-family: "Lobster", cursive;
+    font-size: 36px;
+    line-height: 40px;
+    font-style: italic;
+    color: #ff5959;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.footer-area p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #d9dbe1;
+    text-align: center;
+    padding-top: 24px;
+}
+/* End Footer */
