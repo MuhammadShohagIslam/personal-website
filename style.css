@@ -6,13 +6,13 @@
     list-style-type: none;
     outline: none;
 }
-/*  Start Custome CSS  */
 html {
     overflow-x: hidden;
 }
 body {
     font-family: "Poppins", sans-serif;
 }
+/*  Start Custome CSS  */
 .pt-130 {
     padding-top: 130px;
 }
@@ -66,7 +66,7 @@ body {
     line-height: 28px;
     text-align: center;
     color: #707070;
-    padding-top: 20px;
+    padding: 20px 32px 0px;
 }
 .d-plan1 {
     background: rgba(79, 157, 166, 0.1);
@@ -138,13 +138,13 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 28px;
-    padding: 4px 0px 29px;
+    padding: 4px 90px 29px;
 }
 /*  End  Header */
 
 /*  Start  Donate Today */
 .donate-today-area {
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .donate-today-area .donate-amount-wrapper {
     align-items: center;
@@ -189,7 +189,7 @@ body {
     border: 0;
     outline: 0;
     height: 45px;
-    margin-bottom: 25px;
+    margin-bottom: 28px;
     font-size: 18px;
     color: #707070;
     font-weight: 700;
@@ -298,6 +298,49 @@ body {
     padding: 20px 0px;
 }
 /* End Survive-Situation */
+
+/* Start Children-Donation-Result */
+.children-d-result {
+    width: 84%;
+    margin: 0 auto;
+}
+.children-d-result-image img {
+    width: 495px;
+    height: 477px;
+}
+.children-d-result-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    padding-right: 4%;
+}
+.children-d-result-content h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+}
+.children-d-result-content ul {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 3%;
+}
+.children-d-result-content ul li {
+    display: flex;
+    padding-bottom: 6px;
+}
+.children-d-result-content ul li img {
+    width: 30px;
+    height: 30px;
+}
+.children-d-result-content ul li span {
+    font-size: 20px;
+    font-weight: 500;
+    color: #0b0d17;
+    margin-left: 10px;
+}
+/* End Children-Donation-Result */
 
 /* Start Subscribtion */
 .subcriber-form {
